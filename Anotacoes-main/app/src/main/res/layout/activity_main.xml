@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7EFFFFFF"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="225dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Nome da Anotação"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="241dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#000000"
+        android:text="Salvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="215dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="#000000"
+        android:text="Limpar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="252dp"
+        android:backgroundTint="#000000"
+        android:text="Finalizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editDescricao"
+        android:layout_width="296dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:hint="Descreva aqui"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine|textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTitulo"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="412dp"
+        android:layout_height="54dp"
+        android:background="#FFE500"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="204dp"
+            android:layout_height="39dp"
+            android:text="Anotações"
+            android:textAlignment="center"
+            android:textColor="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

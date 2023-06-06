@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GerenciamentoTarefas</string>
+    <string name="app_name_Limpar">Limpar</string>
+    <string name="descri_o_da_tarefa">Descrição da Tarefa</string>
+    <string name="DataConclusao">DataConclusao</string>
+    <string name="app_name_DataConclusao">Data Conclusao</string>
+</resources>
